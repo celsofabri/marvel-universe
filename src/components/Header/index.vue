@@ -7,20 +7,19 @@
 </template>
 
 <script>
-  import Logo from '@/components/Logo';
+import Logo from '@/components/Logo';
 
-  export default {
-    name: 'Header',
-    components: {
-      Logo
-    }
+export default {
+  name: 'Header',
+  components: {
+    Logo
   }
+};
 </script>
 
-
 <style scoped>
-  .header {
-    display: block;
-    width: 100%;
-  }
+.header {
+  display: block;
+  width: 100%;
+}
 </style>
